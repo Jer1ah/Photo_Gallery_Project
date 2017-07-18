@@ -1,4 +1,10 @@
-$(document).ready(function() {
-    var $search = $("#search").val();
-    $("#photos a").featherlightGallery();
-});  
+
+ var $overlay = $('<div id="overlay"></div>');
+ $('#search').hideseek();
+
+
+lightbox.option({
+      'wrapAround': true,
+      'showImageNumberLabel': false
+    })
+

@@ -1,7 +1,9 @@
 /*Main Styles*/
 
 body {
-    margin: 0;
+    margin: 0 auto;
+    max-width: 90%;
+    font-family: 'Bellefair', serif;
 }
 
 /*Input Styles*/
@@ -33,6 +35,12 @@ input:focus {
     margin: 20px;
 }
 
+a {
+   text-decoration: none; 
+   color: black;
+    font-size: 22px;
+}
+
 /*LightBox Styles*/
 
 #overlay {
@@ -54,3 +62,7 @@ input:focus {
 #overlay p {
     color: white;
 }
+
+
+
+
