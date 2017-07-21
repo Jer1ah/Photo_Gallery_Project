@@ -1,7 +1,7 @@
 
  var $overlay = $('<div id="overlay"></div>');
  $('#search').hideseek({
-     attribute: "data-alt";
+     attribute: "data-alt"
  });
 
 
